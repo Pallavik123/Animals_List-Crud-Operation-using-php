@@ -1,5 +1,4 @@
 # Animals_List-Crud-Operation-using-php
-# Animal Listing Application
 
 This is a simple PHP web application to manage a list of animals with categories, images, descriptions, and life expectancy. It includes:
 
