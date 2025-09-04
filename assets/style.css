@@ -1,9 +1,11 @@
+
 body {
     font-family: Arial, sans-serif;
     background-color: #f9f9f9;
     padding: 30px;
     color: #333;
 }
+
 
 .container {
     max-width: 1000px;
@@ -14,11 +16,13 @@ body {
     box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
 
+/* Heading styles */
 h2 {
     text-align: center;
     color: #444;
 }
 
+/* Form layout */
 form {
     margin-bottom: 20px;
     display: flex;
@@ -34,13 +38,17 @@ form label {
     min-width: 150px;
 }
 
-select, input[type="text"], textarea {
+/* Input fields and dropdowns */
+select,
+input[type="text"],
+textarea {
     padding: 6px;
     font-size: 14px;
     border: 1px solid #ccc;
     border-radius: 5px;
 }
 
+/* Submit and action buttons */
 button {
     padding: 8px 16px;
     font-size: 14px;
@@ -53,6 +61,7 @@ button {
     height: 38px;
 }
 
+/* Table layout */
 table {
     width: 100%;
     border-collapse: collapse;
@@ -63,18 +72,21 @@ th {
     background-color: #f0f0f0;
 }
 
-th, td {
+th,
+td {
     text-align: left;
     padding: 12px;
     border-bottom: 1px solid #ddd;
 }
 
+/* Images */
 img {
     max-width: 100px;
     height: auto;
     border-radius: 4px;
 }
 
+/* Links for Edit/Delete */
 .actions a {
     margin-right: 10px;
     text-decoration: none;
@@ -85,6 +97,7 @@ img {
     text-decoration: underline;
 }
 
+/* Top bar with add button and visitor count */
 .top-bar {
     display: flex;
     justify-content: space-between;
