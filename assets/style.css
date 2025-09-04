@@ -16,13 +16,13 @@ body {
     box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
 
-/* Heading styles */
+
 h2 {
     text-align: center;
     color: #444;
 }
 
-/* Form layout */
+
 form {
     margin-bottom: 20px;
     display: flex;
@@ -38,7 +38,7 @@ form label {
     min-width: 150px;
 }
 
-/* Input fields and dropdowns */
+
 select,
 input[type="text"],
 textarea {
@@ -48,7 +48,6 @@ textarea {
     border-radius: 5px;
 }
 
-/* Submit and action buttons */
 button {
     padding: 8px 16px;
     font-size: 14px;
@@ -61,7 +60,7 @@ button {
     height: 38px;
 }
 
-/* Table layout */
+
 table {
     width: 100%;
     border-collapse: collapse;
@@ -79,14 +78,13 @@ td {
     border-bottom: 1px solid #ddd;
 }
 
-/* Images */
+
 img {
     max-width: 100px;
     height: auto;
     border-radius: 4px;
 }
 
-/* Links for Edit/Delete */
 .actions a {
     margin-right: 10px;
     text-decoration: none;
@@ -97,7 +95,7 @@ img {
     text-decoration: underline;
 }
 
-/* Top bar with add button and visitor count */
+
 .top-bar {
     display: flex;
     justify-content: space-between;
