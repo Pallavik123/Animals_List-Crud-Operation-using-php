@@ -18,21 +18,7 @@ This is a simple PHP web application to manage a list of animals with categories
 - Basic form validation and captcha protection
 - Simple visitor counter stored in a file
 
-## Setup Instructions
 
-1. Import the database using the provided SQL file (if any).
-2. Update database credentials in `database.php`.
-3. Place the project in your local web server folder (e.g., `htdocs` for XAMPP).
-4. Make sure the `uploads` folder is writable for image uploads.
-5. Open `index.php` in your browser to view the animal list.
 
-## Usage
 
-- Visit the home page to see all animals.
-- Use filters and sorting to narrow down the list.
-- Add new animals using the submission form.
-- Edit or delete existing animals using the links on the list.
 
----
-
-Feel free to contribute or suggest improvements!
